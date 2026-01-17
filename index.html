@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"href="photo/favicon.ico">
+    <title>" I'm Abdullah " </title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+
+<meta name="description" content="A professional web developer named Abdullah Ahmed" />
+<meta name="keywords" content="WebDeveloper, Programmer, Abdullah Ahmed," />
+<meta name="author" content="Abdullah Ahmed">
+
+<meta
+property="og:title"
+content="Dev. Abdullah Ahmed "/>
+<meta
+property="og:description"
+content="متخصص فى برمجه مواقع ويب إحترافى و متاجر إلكترونية "/>
+<meta property="og:image" content="photo/AbdullahOG.jpg" />
+<meta property"og:type" content="website" />
+
+<body>
+    <!-- خلفية 3D باستخدام Three.js -->
+    <div id="threejs-background"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+              <img src= "photo/pro.png"صورة شخصية" class="profile-img" width="240" height="auto">
+              <h1 class="logo">Ꭰҽѵ . ᗩᗷᗪᑌᒪᒪᗩᕼ</h1>
+       <p class="description">I am an experienced web developer and digital marketing expert With the latest technology .  </p></a>
+          <a href="https://wa.me/201013286381" target="_blank">
+            <button class="cta-button">𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐞</button>
+        </div>
+        </a>
+    </header>
+
+    <!--قسم الخدمات -->
+    <section id="services" class="section">
+        <div class="container1">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Website development </h3>
+                    <p>Building professional websites using the latest technologies.</p>
+                </div>
+                <div class="service-card">
+                   <h3>Digital Marketing</h3>
+                    <p>Promoting your website and increasing traffic through effective digital marketing strategies.</p>
+                </div>
+                <div class="service-card">
+                    <h3>UI/UX design</h3>
+                    <p>Designing attractive and user-friendly interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم معرض الصور -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Demo Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" onclick="zoomImage(this)">
+                    <img src="photo/1.png" alt="مشروع 1">
+                    <h3>Restaurant Fast food</h3>
+                    <p>Programmed and Marketing </p>
+                </div>
+                <div class="portfolio-item" onclick="zoomImage(this)">
+                    <img src="photo/2.png" alt="مشروع 2">
+                    <h3>Modern House</h3>
+                    <p>To buy or rent a luxury villa</p>
+                </div>
+                <div class="portfolio-item" onclick="zoomImage(this)">
+                    <img src="photo/7.png" alt="مشروع 3">
+                    <h3>Ovulan</h3>
+                    <p>Luxury That Lasts a Lifetime. 5-Year</p>
+                </div>
+                <div class="portfolio-item" onclick="zoomImage(this)">
+                    <img src="photo/8.png" alt="مشروع 4">
+                    <h3>PURE</h3>
+                    <p>Relovutionizing The Future Of Electric Mobility</p>
+                </div>
+                <div class="portfolio-item" onclick="zoomImage(this)">
+                    <img src="photo/5.png" alt="مشروع 5">
+                    <h3>NP STUDIO</h3>
+                    <p>Rustic Cabin . Very good </p>
+                </div>
+                             <div class="portfolio-item" onclick="zoomImage(this)">
+                    <img src="photo/6.png" alt="مشروت 6">
+                    <h3>UIXSHUVO</h3>
+                    <p>Connecting you to the home you love</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الفيديو -->
+    <section id="video" class="section">
+        <div class="container">
+            <h2> Demo of my programming work</h2>
+             
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MKvcOfIavuo" title="Some projects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer (قسم الاتصال) -->
+    <footer id="contact" class="section">
+        <div class="container">
+            <h2> Fast 🏍️ communication </h2>
+            <form class="contact-form">
+                
+                <input type="email" placeholder="Email & Name" required>
+                <textarea placeholder="The problem" required></textarea>
+                <button type="submit">Send the message </button>
+            </form>
+            <marquee direction=" ">
+            <div class="social-links">
+                <a href="https://t.me/el_V_I_P">Telegram<i class="fab fa-telegram"></i></a>
+                <a href="https://wa.me/201507786877">WhatsApp<i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/share/1FrqQ8GWkp/">Facebook<i class="fab fa-facebook"></i></a>
+                <a href="https://youtube.com/@3bd7ll3h?si=eY_scY7nLA1b7EqF">Youtube<i class="fab fa-youtube"></i></a>
+            </div>
+            </marquee>
+            <p>Follow me on social media </p> 
+                      <p>© 2025. All rights reserved</p>
+        </div>
+    </footer>
+   <body>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
