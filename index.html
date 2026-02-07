@@ -1,462 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon"href="favicon.ico">
-    <title> I am Abdullah</title>
-    <meta property="og:title" content="Dev.Abdullah"/>
-    <meta property="og:description" content="مــوقعك الإلكتــرونـى هو شكلك الخارجي"  />
-    <meta property="og:image" content= "https://i.ibb.co/M5JjK38V/Picsart-26-02-06-23-54-42-816.jpg" />
-    <link rel="stylesheet" href=" tailwind.min.css"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-     <link rel="stylesheet" href="st.css">
-</head>
-<body class="bg-gray-50">
-    <!-- Navigation -->
-    <nav class="fixed w-full bg-white shadow-md z-50">
-        <div class="container mx-auto px-4 py-3">
-            <div class="flex justify-between items-center">
-                <div class="text-xl font-bold text-purple-700">عبدالله أحمد </div>
-                <div class="hidden md:flex space-x-reverse space-x-6">
-                    <a href="#home" class="text-gray-700 hover:text-purple-600 transition">الرئيسية</a>
-                    <a href="#about" class="text-gray-700 hover:text-purple-600 transition">من أنا</a>
-                    <a href="#skills" class="text-gray-700 hover:text-purple-600 transition">المهارات</a>
-                    <a href="#services" class="text-gray-700 hover:text-purple-600 transition">الخدمات</a>
-                    <a href="#contact" class="text-gray-700 hover:text-purple-600 transition">تواصل معي</a>
-                </div>
-                <button id="mobile-menu-btn" class="md:hidden text-gray-700">
-                    <i class="fas fa-bars text-xl"></i>
-                </button>
-            </div>
-            <!-- Mobile Menu -->
-            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
-                <a href="#home" class="block py-2 text-gray-700 hover:text-purple-600 transition">الرئيسية</a>
-                <a href="#about" class="block py-2 text-gray-700 hover:text-purple-600 transition">من أنا</a>
-                <a href="#skills" class="block py-2 text-gray-700 hover:text-purple-600 transition">المهارات</a>
-                <a href="#services" class="block py-2 text-gray-700 hover:text-purple-600 transition">الخدمات</a>
-                <a href="#contact" class="block py-2 text-gray-700 hover:text-purple-600 transition">تواصل معي</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero-pattern pt-24 pb-20">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-10 md:mb-0 fade-in">
-                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-                        مرحباً، أنا <span class="text-purple-700">عبدالله</span>
-                    </h1>
-                    <h2 class="text-2xl md:text-3xl text-gray-600 mb-6">
-                        مبرمج ومطور مواقع محترف
-                    </h2>
-                    <p class="text-gray-600 mb-8 leading-relaxed">
-                        أقدم حلولاً رقمية مبتكرة باستخدام أحدث التقنيات في تطوير المواقع، مع خبرة متخصصة في منصة ووردبريس وإدارة المشاريع على GitHub.
-                    </p>
-                    <div class="flex space-x-reverse space-x-4">
-                        <a href="#contact" class="gradient-bg text-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition">
-                            تواصل معي
-                        </a>
-                        <a href="#skills" class="border-2 border-purple-600 text-purple-600 px-6 py-3 rounded-lg hover:bg-purple-50 transition">
-                            مهاراتي
-                        </a>
-                    </div>
-                </div>
-                <div class="md:w-1/2 flex justify-center">
-                    <div class="relative">
-                        <div class="w-64 h-64 md:w-80 md:h-80 rounded-full gradient-bg flex items-center justify-center floating">
-                            <img src= "https://i.ibb.co/6cDw7tHL/pro.png" class="profile-img ">
-                        </div>
-                        <div class="absolute -bottom-4 -right-4 bg-white rounded-full p-4 shadow-lg">
-                            <i class="fab fa-github text-4xl text-gray-800"></i>
-                        </div>
-                        <div class="absolute -top-4 -left-4 bg-white rounded-full p-4 shadow-lg">
-                            <i class="fab fa-wordpress text-4xl text-blue-600"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">من أنا</h2>
-            <div class="max-w-3xl mx-auto">
-                <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
-                    <p class="text-gray-700 mb-4 leading-relaxed">
-                        أنا عبدالله، مبرمج ومطور مواقع محترف أمتلك خبرة واسعة في مجال تطوير المواقع والتطبيقات الإلكترونية. أتخصص في بناء مواقع ويب احترافية وسريعة الاستجابة باستخدام أحدث التقنيات والأدوات.
-                    </p>
-                    <p class="text-gray-700 mb-4 leading-relaxed">
-                        خبير في منصة ووردبريس، حيث أقدم حلولاً مخصصة للشركات والأفراد، من تصميم القوالب والتطوير البرمجي إلى تحسين الأداء والأمان. كما أمتلك خبرة عميقة في استخدام GitHub لإدارة المشاريع والتعاون مع الفرق البرمجية.
-                    </p>
-                    <p class="text-gray-700 leading-relaxed">
-                        أسعى دائماً لتقديم أفضل الحلول الرقمية لعملائي، مع التركيز على الجودة والكفاءة والابتكار في كل مشروع أعمل عليه.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">مهاراتي</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- GitHub Skills -->
-                <div class="bg-white rounded-xl p-6 shadow-lg card-hover">
-                    <div class="flex items-center mb-4">
-                        <i class="fab fa-github text-4xl text-gray-800 ml-4"></i>
-                        <h3 class="text-xl font-bold text-gray-800">GitHub</h3>
-                    </div>
-                    <p class="text-gray-600 mb-4">خبير في إدارة المشاريع والتعاون باستخدام GitHub</p>
-                    <div class="space-y-3">
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">Git & GitHub</span>
-                                <span class="text-sm text-gray-600">95%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">إدارة المشاريع</span>
-                                <span class="text-sm text-gray-600">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">التعاون مع الفريق</span>
-                                <span class="text-sm text-gray-600">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- WordPress Skills -->
-                <div class="bg-white rounded-xl p-6 shadow-lg card-hover">
-                    <div class="flex items-center mb-4">
-                        <i class="fab fa-wordpress text-4xl text-blue-600 ml-4"></i>
-                        <h3 class="text-xl font-bold text-gray-800">ووردبريس</h3>
-                    </div>
-                    <p class="text-gray-600 mb-4">تطوير وتخصيص مواقع ووردبريس احترافية</p>
-                    <div class="space-y-3">
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">تطوير القوالب</span>
-                                <span class="text-sm text-gray-600">90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">الإضافات البرمجية</span>
-                                <span class="text-sm text-gray-600">85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">تحسين الأداء</span>
-                                <span class="text-sm text-gray-600">88%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 88%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Web Development Skills -->
-                <div class="bg-white rounded-xl p-6 shadow-lg card-hover">
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-laptop-code text-4xl text-purple-600 ml-4"></i>
-                        <h3 class="text-xl font-bold text-gray-800">تطوير المواقع</h3>
-                    </div>
-                    <p class="text-gray-600 mb-4">بناء مواقع ويب حديثة وسريعة الاستجابة</p>
-                    <div class="space-y-3">
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">HTML/CSS/JS</span>
-                                <span class="text-sm text-gray-600">95%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">التصميم المتجاوب</span>
-                                <span class="text-sm text-gray-600">92%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 92%"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="flex justify-between mb-1">
-                                <span class="text-sm text-gray-600">تحسين محركات البحث</span>
-                                <span class="text-sm text-gray-600">80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">خدماتي</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-gray-50 rounded-xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 rounded-full gradient-bg flex items-center justify-center mb-4">
-                        <i class="fas fa-code text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">تطوير المواقع</h3>
-                    <p class="text-gray-600">بناء وتصميم مواقع ويب احترافية وسريعة الاستجابة باستخدام أحدث التقنيات</p>
-                </div>
-                
-                <div class="bg-gray-50 rounded-xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 rounded-full gradient-bg flex items-center justify-center mb-4">
-                        <i class="fab fa-wordpress text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">حلول ووردبريس</h3>
-                    <p class="text-gray-600">تطوير وتخصيص مواقع ووردبريس، تصميم القوالب، وبرمجة الإضافات</p>
-                </div>
-                
-                <div class="bg-gray-50 rounded-xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 rounded-full gradient-bg flex items-center justify-center mb-4">
-                        <i class="fab fa-github text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">إدارة المشاريع</h3>
-                    <p class="text-gray-600">إدارة المشاريع البرمجية باستخدام GitHub، والتعاون مع الفرق البرمجية</p>
-                </div>
-                
-                <div class="bg-gray-50 rounded-xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 rounded-full gradient-bg flex items-center justify-center mb-4">
-                        <i class="fas fa-mobile-alt text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">التصميم المتجاوب</h3>
-                    <p class="text-gray-600">تصميم وتطوير واجهات تعمل بشكل مثالي على جميع الأجهزة والمقاسات</p>
-                </div>
-                
-                <div class="bg-gray-50 rounded-xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 rounded-full gradient-bg flex items-center justify-center mb-4">
-                        <i class="fas fa-search text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">تحسين محركات البحث</h3>
-                    <p class="text-gray-600">تحسين المواقع لمحركات البحث لزيادة الظهور في نتائج البحث</p>
-                </div>
-                
-                <div class="bg-gray-50 rounded-xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 rounded-full gradient-bg flex items-center justify-center mb-4">
-                        <i class="fas fa-rocket text-white text-2xl"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-3">تحسين الأداء</h3>
-                    <p class="text-gray-600">تحسين سرعة وأداء المواقع لتوفير تجربة مستخدم ممتازة</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">تواصل معي</h2>
-            <div class="max-w-4xl mx-auto">
-                <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                    <div class="md:flex">
-                        <div class="md:w-1/3 gradient-bg p-8 text-white">
-                            <h3 class="text-xl font-bold mb-6">معلومات التواصل</h3>
-                            <div class="space-y-4">
-                                <div class="flex items-center">
-                                    <i class="fas fa-envelope ml-3"></i>
-                                    <span>3bd7ll3h@eyoo.org</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <i class="fas fa-phone ml-3"></i>
-                                    <span>+201507786877</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <i class="fas fa-map-marker-alt ml-3"></i>
-                                    <span>مــصر</span>
-                                </div>
-                            </div>
-                            <div class="mt-8">
-                                <h4 class="font-bold mb-4">تابعني على</h4>
-                                <div class="flex space-x-reverse space-x-4">
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center hover:bg-opacity-30 transition">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-2/3 p-8">
-                            <form id="contact-form">
-                                <div class="mb-4">
-                                    <label class="block text-gray-700 mb-2" for="name">الاسم</label>
-                                    <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600" required>
-                                </div>
-                                <div class="mb-4">
-                                    <label class="block text-gray-700 mb-2" for="email">البريد الإلكتروني</label>
-                                    <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600" required>
-                                </div>
-                                <div class="mb-4">
-                                    <label class="block text-gray-700 mb-2" for="message">الرسالة</label>
-                                    <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600" required></textarea>
-                                </div>
-                                <button type="submit" class="gradient-bg text-white px-6 py-3 rounded-lg shadow-lg hover:shadow-xl transition w-full">
-                                    إرسال الرسالة
-                                </button>
-                            </form>
-                            <div id="form-message" class="mt-4 text-center hidden"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="gradient-bg text-white py-8">
-        <div class="container mx-auto px-4 text-center">
-            <p>© 2023 عبدالله - جميع الحقوق محفوظة</p>
-             <marquee direction=" ">
-            <div class="social-links">
-                <a href="https://t.me/el_V_I_P">Telegram<i class="fab fa-telegram"></i></a>
-                <a href="https://wa.me/201507786877">WhatsApp<i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.facebook.com/share/1FrqQ8GWkp/">Facebook<i class="fab fa-facebook"></i></a>
-                <a href="https://youtube.com/@3bd7ll3h?si=eY_scY7nLA1b7EqF">Youtube<i class="fab fa-youtube"></i></a>
-                <a href="https://t.me/el_V_I_P">Telegram<i class="fab fa-telegram"></i></a>
-                <a href="https://wa.me/201507786877">WhatsApp<i class="fab fa-whatsapp"></i></a>
-                <a href="https://www.facebook.com/share/1FrqQ8GWkp/">Facebook<i class="fab fa-facebook"></i></a>
-                <a href="https://youtube.com/@3bd7ll3h?si=eY_scY7nLA1b7EqF">Youtube<i class="fab fa-youtube"></i></a>
-            </div>
-            </marquee>
-            <p>Follow me on social media </p> 
-                      <p>© 2025. All rights reserved</p>
-       
-        </div>
-    </footer>
-
-    <script>
-        // Mobile menu toggle
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-           // Contact form submission
-const contactForm = document.getElementById('contact-form');
-const formMessage = document.getElementById('form-message');
-
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    // Get form values
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const messageo = document.getElementById('message').value;
-    
-    // Telegram bot details
-    const botToken = "8398396402:AAF1bUOz1Y7aeIzCQbT9gqlKSz1CDeYZ2L4";
-    const chatId = "6344406136";
-
-    // Prepare message with all details
-    const message = `رسالة جديدة من الموقع 📩
-الاسم: ${name}
-البريد: ${email}
-الرسالة: ${messageo}`;
-
-    // Send message to Telegram
-    fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-            chat_id: chatId,
-            text: message
-        })
-    })
-    .then(response => response.json())
-    .then(data => {
-        formMessage.textContent = `شكراً لك ${name}! تم إرسال رسالتك بنجاح وسأتواصل معك قريباً.`;
-        formMessage.classList.remove('hidden');
-        formMessage.classList.add('text-green-600');
-    })
-    .catch(error => {
-        formMessage.textContent = "حدث خطأ أثناء الإرسال";
-        formMessage.classList.remove('hidden');
-        formMessage.classList.add('text-red-600');
-    });
-    
-    // Reset form
-    contactForm.reset();
-    
-    // Hide message after 5 seconds
-    setTimeout(() => {
-        formMessage.classList.add('hidden');
-    }, 5000);
-});
-
-// Add animation on scroll
-const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('fade-in');
-        }
-    });
-}, observerOptions);
-
-// Observe all sections
-document.querySelectorAll('section').forEach(section => {
-    observer.observe(section);
-});
-    </script>
-</body>
-
-</html>
